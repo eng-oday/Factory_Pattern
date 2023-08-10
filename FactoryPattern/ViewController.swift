@@ -11,7 +11,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let fanFactory = FansFactory()
+        
+        print(fanFactory.createFanFrom(type: .manCity).name)
+        print(fanFactory.createFanFrom(type: .realMadrid).name)
     }
 
 

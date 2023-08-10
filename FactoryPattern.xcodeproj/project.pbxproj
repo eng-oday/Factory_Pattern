@@ -13,6 +13,7 @@
 		F86BBB842A84D03F006A24CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86BBB822A84D03F006A24CF /* Main.storyboard */; };
 		F86BBB862A84D040006A24CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86BBB852A84D040006A24CF /* Assets.xcassets */; };
 		F86BBB892A84D040006A24CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86BBB872A84D040006A24CF /* LaunchScreen.storyboard */; };
+		F86BBB922A84D068006A24CF /* FactoryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86BBB912A84D068006A24CF /* FactoryExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F86BBB852A84D040006A24CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F86BBB882A84D040006A24CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F86BBB8A2A84D040006A24CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F86BBB912A84D068006A24CF /* FactoryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		F86BBB7B2A84D03F006A24CF /* FactoryPattern */ = {
 			isa = PBXGroup;
 			children = (
+				F86BBB902A84D045006A24CF /* FactoryPatternExample */,
 				F86BBB7C2A84D03F006A24CF /* AppDelegate.swift */,
 				F86BBB7E2A84D03F006A24CF /* SceneDelegate.swift */,
 				F86BBB802A84D03F006A24CF /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				F86BBB8A2A84D040006A24CF /* Info.plist */,
 			);
 			path = FactoryPattern;
+			sourceTree = "<group>";
+		};
+		F86BBB902A84D045006A24CF /* FactoryPatternExample */ = {
+			isa = PBXGroup;
+			children = (
+				F86BBB912A84D068006A24CF /* FactoryExample.swift */,
+			);
+			path = FactoryPatternExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				F86BBB812A84D03F006A24CF /* ViewController.swift in Sources */,
 				F86BBB7D2A84D03F006A24CF /* AppDelegate.swift in Sources */,
 				F86BBB7F2A84D03F006A24CF /* SceneDelegate.swift in Sources */,
+				F86BBB922A84D068006A24CF /* FactoryExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
